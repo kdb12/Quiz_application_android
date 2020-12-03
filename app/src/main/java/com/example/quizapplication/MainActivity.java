@@ -16,6 +16,7 @@ import android.widget.Toast;
 import com.example.quizapplication.Fragments.ProfileFragment;
 import com.example.quizapplication.Fragments.QuestionFragment;
 import com.example.quizapplication.Fragments.QuizFragment;
+import com.example.quizapplication.Fragments.StartFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nav);
 
+        if(findViewById(R.id.fragment_container)!=null)
+        {
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,new StartFragment(),null).commit();
+        }
+
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
 
@@ -47,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     case R.id.ic_exit:
                         drawerLayout.closeDrawer(GravityCompat.START);
-                       onBackPressed();
+                        onBackPressed();
 
                         break;
 

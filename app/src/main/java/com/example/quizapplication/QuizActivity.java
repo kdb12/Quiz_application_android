@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.net.wifi.p2p.WifiP2pManager;
 import android.os.Build;
@@ -196,8 +197,14 @@ public class QuizActivity extends AppCompatActivity implements QuestionList.Ques
         int min=(int) timeTotal/60000;
         int sec=(int) timeTotal%60000/1000;
 
-        String sTime;
-        sTime=""+min;
+        if(min<1)
+        {
+            timer.setTextColor(Color.argb(255,0,0,255));
+        }
+
+        String sTime = null;
+        if(min <10) sTime = "0";
+        sTime += ""+min;
         sTime += ":";
 
         if(sec<10) sTime += "0";
