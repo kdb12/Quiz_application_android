@@ -1,0 +1,514 @@
+{
+  "Questions" :
+[
+  {
+    "type": 1,
+    "question": "What is operating system?",
+    "options": [
+      "collection of programs that manages hardware resources",
+      "system service provider to the application programs",
+      "link to interface the hardware and application programs",
+      "all of the mentioned"
+    ],
+    "correct": [
+      "all of the mentioned"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "What is the main function of the command interpreter?",
+    "options": [
+      "to get and execute the next user-specified command",
+      "to provide the interface between the API and application program",
+      "to handle the files in operating system",
+      "none of the mentioned"
+    ],
+    "correct": [
+      "to get and execute the next user-specified command"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which one of the following is not a real time operating system?",
+    "options": [
+      "VxWorks",
+      "Windows CE",
+      "RTLinux",
+      "Palm OS"
+    ],
+    "correct": [
+      "Palm OS"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 2,
+    "question": "With _____________ only one process can execute at a time; meanwhile all other process are waiting for the processor. With ______________ more than one process can be running simultaneously each on a different processor.",
+    "options": [
+      "Uniprogramming",
+      "Multiprocessing",
+      "Multiprogramming",
+      "Uniprocessing"
+    ],
+    "correct": [
+      "Uniprogramming",
+      "Multiprocessing"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which one of the following is a synchronization tool?",
+    "options": [
+      "thread",
+      "pipe",
+      "semaphore",
+      "socket"
+    ],
+    "correct": [
+      "semaphore"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Process synchronization can be done on __________",
+    "options": [
+      "hardware level",
+      "software level",
+      "both hardware and software level",
+      "none of the mentioned"
+    ],
+    "correct": [
+      "both hardware and software level"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 2,
+    "question": "What are the two steps of a process execution?",
+    "options": [
+      "I/O Burst",
+      "OS Burst",
+      "CPU Burst",
+      "Memory Burst"
+    ],
+    "correct": [
+      "I/O Burst",
+      "CPU Burst"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which one of the following error will be handle by the operating system?",
+    "options": [
+      "power failure",
+      "lack of paper in printer",
+      "connection failure in the network",
+      "all of the mentioned"
+    ],
+    "correct": [
+      "all of the mentioned"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "The systems which allow only one process execution at a time, are called __________",
+    "options": [
+      "uniprogramming systems",
+      "uniprocessing systems",
+      "unitasking systems",
+      "none of the mentioned"
+    ],
+    "correct": [
+      "uniprocessing systems"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "In operating system, each process has its own __________",
+    "options": [
+      "address space and global variables",
+      "open files",
+      "pending alarms, signals and signal handlers",
+      "all of the mentioned"
+    ],
+    "correct": [
+      "all of the mentioned"
+    ],
+    "topic": [
+      "OS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which of these best describes an array?",
+    "options": [
+      "A data structure that shows a hierarchical behavior",
+      "Container of objects of similar types",
+      "Arrays are immutable once initialised",
+      "Array is not a data structure"
+    ],
+    "correct": [
+      "Container of objects of similar types"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "When does the ArrayIndexOutOfBoundsException occur?",
+    "options": [
+      "Compile-time",
+      "Run-time",
+      "Not an error",
+      "Not an exception at all"
+    ],
+    "correct": [
+      "Run-time"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Elements in an array are accessed _____________",
+    "options": [
+      "randomly",
+      "sequentially",
+      "exponentially",
+      "logarithmically"
+    ],
+    "correct": [
+      "randomly"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "In a stack, if a user tries to remove an element from an empty stack it is called _________",
+    "options": [
+      "Underflow",
+      "Empty collection",
+      "Overflow",
+      "Garbage Collection"
+    ],
+    "correct": [
+      "Underflow"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which data structure is used for implementing recursion?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Array",
+      "List"
+    ],
+    "correct": [
+      "Stack"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 3,
+    "question": "When an array is passed to a function, the function receives a copy of the array (call by value)",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      "False"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 3,
+    "question": "An O(log N) algorithm is slower than an O(N) algorithm",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      "False"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "With what data structure can a priority queue be implemented?",
+    "options": [
+      "Array",
+      "List",
+      "Heap",
+      "Tree"
+    ],
+    "correct": [
+      "Tree"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which of the following is not an application of priority queue?",
+    "options": [
+      "Huffman codes",
+      "Interrupt handling in operating system",
+      "Undo operation in text editors",
+      "Bayesian spam filter"
+    ],
+    "correct": [
+      "Undo operation in text editors"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "What is the worst case time complexity of inserting a node in a doubly linked list?",
+    "options": [
+      "O(nlogn)",
+      "O(logn)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correct": [
+      "O(n)"
+    ],
+    "topic": [
+      "DSA"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "A relational database consists of a collection of",
+    "options": [
+      "Tables",
+      "Fields",
+      "Records",
+      "Keys"
+    ],
+    "correct": [
+      "Tables"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "The term _______ is used to refer to a row.",
+    "options": [
+      "Attribute",
+      "Tuple",
+      "Field",
+      "Instance"
+    ],
+    "correct": [
+      "Tuple"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 2,
+    "question": "Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time.",
+    "options": [
+      "Schema",
+      "Instance",
+      "Relation",
+      "Domain"
+    ],
+    "correct": [
+      "Schema",
+      "Instance"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": " A domain is atomic if elements of the domain are considered to be ____________ units.",
+    "options": [
+      "Different",
+      "Indivisbile",
+      "Constant",
+      "Divisible"
+    ],
+    "correct": [
+      "Indivisbile"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 3,
+    "question": "In a database, data is stored in spreadsheets which have rows and columns.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      "False"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Consider attributes ID, CITY and NAME. Which one of this can be considered as a super key?",
+    "options": [
+      "NAME",
+      "ID",
+      "CITY",
+      "CITY, ID"
+    ],
+    "correct": [
+      "ID"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "The relation with the attribute which is the primary key is referenced in another relation. The relation which has the attribute as a primary key is called ______________",
+    "options": [
+      "Referential relation",
+      "Referencing relation",
+      "Referenced relation",
+      "Referred relation"
+    ],
+    "correct": [
+      "Referenced relation"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which one of the following is a procedural language?",
+    "options": [
+      "Domain relational calculus",
+      "Tuple relational calculus",
+      "Relational algebra",
+      "Query language"
+    ],
+    "correct": [
+      "Relational algebra"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "The most commonly used operation in relational algebra for projecting a set of tuple from a relation is",
+    "options": [
+      "Join",
+      "Projection",
+      "Select",
+      "Union"
+    ],
+    "correct": [
+      "Select"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  },
+  {
+    "type": 1,
+    "question": "Which one of the following is used to define the structure of the relation, deleting relations and relating schemas?",
+    "options": [
+      "DML(Data Manipulation Langauge)",
+      "DDL(Data Definition Langauge)",
+      "Query",
+      "Relational Schema"
+    ],
+    "correct": [
+      "DDL(Data Definition Langauge)"
+    ],
+    "topic": [
+      "DBMS"
+    ],
+    "lastSolved": false
+  }
+]
+}
+
+

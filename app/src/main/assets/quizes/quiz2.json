@@ -1,0 +1,143 @@
+{
+  "name" : "DSA quiz 2",
+  "totalQue": 10,
+  "questions" : [
+    {
+      "type" : 1,
+      "question" : "Which of these best describes an array?",
+      "options" : [
+        "A data structure that shows a hierarchical behavior",
+        "Container of objects of similar types",
+        "Arrays are immutable once initialised",
+        "Array is not a data structure"
+      ],
+      "correct" : ["Container of objects of similar types"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 1,
+      "question" : "When does the ArrayIndexOutOfBoundsException occur?",
+      "options" : [
+        "Compile-time",
+        "Run-time",
+        "Not an error",
+        "Not an exception at all"
+      ],
+      "correct" : ["Run-time"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 1,
+      "question" : "Elements in an array are accessed _____________",
+      "options" : [
+        "randomly",
+        "sequentially",
+        "exponentially",
+        "logarithmically"
+      ],
+      "correct" : ["randomly"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 1,
+      "question" : "In a stack, if a user tries to remove an element from an empty stack it is called _________",
+      "options" : [
+        "Underflow",
+        "Empty collection",
+        "Overflow",
+        "Garbage Collection"
+      ],
+      "correct" : ["Underflow"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 1,
+      "question" : "Which data structure is used for implementing recursion?",
+      "options" : [
+        "Queue",
+        "Stack",
+        "Array",
+        "List"
+      ],
+      "correct" : ["Stack"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 3,
+      "question" : "When an array is passed to a function, the function receives a copy of the array (call by value)",
+      "options" : [
+        "True",
+        "False"
+      ],
+      "correct" : ["False"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 3,
+      "question" : "An O(log N) algorithm is slower than an O(N) algorithm",
+      "options" : [
+        "True",
+        "False"
+      ],
+      "correct" : ["False"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 1,
+      "question" : "With what data structure can a priority queue be implemented?",
+      "options" : [
+        "Array",
+        "List",
+        "Heap",
+        "Tree"
+      ],
+      "correct" : ["Tree"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 1,
+      "question" : "Which of the following is not an application of priority queue?",
+      "options" : [
+        "Huffman codes",
+        "Interrupt handling in operating system",
+        "Undo operation in text editors",
+        "Bayesian spam filter"
+      ],
+      "correct" : ["Undo operation in text editors"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    },
+
+    {
+      "type" : 1,
+      "question" : "What is the worst case time complexity of inserting a node in a doubly linked list?",
+      "options" : [
+        "O(nlogn)",
+        "O(logn)",
+        "O(n)",
+        "O(1)"
+      ],
+      "correct" : ["O(n)"],
+      "topic" : ["OS"],
+      "lastSolved" : false
+    }
+  ],
+  "time" : "10",
+  "isSolved" : false
+}

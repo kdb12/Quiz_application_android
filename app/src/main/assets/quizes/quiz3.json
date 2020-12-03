@@ -1,0 +1,146 @@
+{
+	"name" : "DBMS quiz 3",
+	"totalQue" : 10,
+	"questions" : [
+		{
+			"type" : 1,
+			"question" : "A relational database consists of a collection of",
+			"options" : [
+				"Tables",
+				"Fields",
+				"Records",
+				"Keys"
+			],
+			"correct" : ["Tables"],
+			"topic": ["OS"],
+			"lastSolved" : false
+		},
+
+		{
+			"type" : 1,
+			"question"  : "The term _______ is used to refer to a row.",
+			"options"  : [
+				"Attribute",
+				"Tuple",
+				"Field",
+				"Instance"
+			],
+			"correct"  : ["Tuple"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 2,
+			"question"  : "Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time.",
+			"options"  : [
+				"Schema",
+				"Instance",
+				"Relation",
+				"Domain"
+			],
+			"correct"  : ["Schema", "Instance"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 1,
+			"question"  : " A domain is atomic if elements of the domain are considered to be ____________ units.",
+			"options"  : [
+				"Different",
+				"Indivisbile",
+				"Constant",
+				"Divisible"
+			],
+			"correct"  : ["Indivisbile"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 3,
+			"question"  : "In a database, data is stored in spreadsheets which have rows and columns.",
+			"options"  : [
+				"True",
+				"False"
+			],
+			"correct"  : ["False"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 1,
+			"question"  : "Consider attributes ID, CITY and NAME. Which one of this can be considered as a super key?",
+			"options"  : [
+				"NAME",
+				"ID",
+				"CITY",
+				"CITY, ID"
+			],
+			"correct"  : ["ID"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 1,
+			"question"  : "The relation with the attribute which is the primary key is referenced in another relation. The relation which has the attribute as a primary key is called ______________",
+			"options"  : [
+				"Referential relation",
+				"Referencing relation",
+				"Referenced relation",
+				"Referred relation"
+			],
+			"correct"  : ["Referenced relation"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 1,
+			"question"  : "Which one of the following is a procedural language?",
+			"options"  : [
+				"Domain relational calculus",
+				"Tuple relational calculus",
+				"Relational algebra",
+				"Query language"
+			],
+			"correct"  : ["Relational algebra"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 1,
+			"question"  : "The most commonly used operation in relational algebra for projecting a set of tuple from a relation is",
+			"options"  : [
+				"Join",
+				"Projection",
+				"Select",
+				"Union"
+			],
+			"correct"  : ["Select"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		},
+
+		{
+			"type" : 1,
+			"question"  : "Which one of the following is used to define the structure of the relation, deleting relations and relating schemas?",
+			"options"  : [
+				"DML(Data Manipulation Language)",
+				"DDL(Data Definition Language)",
+				"Query",
+				"Relational Schema"
+			],
+			"correct"  : ["DDL(Data Definition Language)"],
+			"topic"  : ["OS"],
+			"lastSolved"  : false
+		}
+
+	],
+	"time" : "10",
+	"isSolved" : false
+}			

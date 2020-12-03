@@ -1,0 +1,49 @@
+{
+  "name" : "Test User",
+  "institute" : "Pune Institute of Computer Technology, Pune",
+  "registrationDate" : "2012-04-23",
+  "queDailyTally" : [
+    {
+      "date" : "2012-04-23",
+      "noOfQue" : 5
+    },
+    {
+      "date" : "2012-04-24",
+      "noOfQue" : 6
+    },
+    {
+      "date" : "2012-04-25",
+      "noOfQue" : 7
+    },
+    {
+      "date" : "2012-04-26",
+      "noOfQue" : 4
+    },
+    {
+      "date" : "2012-04-27",
+      "noOfQue" : 3
+    },
+    {
+      "date" : "2012-04-28",
+      "noOfQue" : 0
+    }
+  ],
+  "queTopicwiseTally" : [
+    {
+      "topic" : "DBMS",
+      "correct" : 10,
+      "wrong" : 4
+    },
+    {
+      "topic" : "OS",
+      "correct" : 8,
+      "wrong" : 4
+    },
+    {
+      "topic" : "DSA",
+      "correct" : 10,
+      "wrong" : 7
+    }
+  ],
+  "quizzTally" : [0,0,0,2,1,2,4,0,2,1]
+}
