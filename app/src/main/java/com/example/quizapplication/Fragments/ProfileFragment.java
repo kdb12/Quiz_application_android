@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.quizapplication.R;
@@ -26,6 +27,8 @@ import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.formatter.IndexAxisValueFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -61,7 +64,8 @@ public class ProfileFragment extends Fragment {
     BarChart barChart, stackedBarChart;
     PieChart quizzScoresPieChart;
 
-    TextView nameTV, instituteTV, registrationDateTV, ratingTV;
+    TextInputEditText nameTV, instituteTV, registrationDateTV;
+     TextView ratingTV;
 
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -98,6 +102,8 @@ public class ProfileFragment extends Fragment {
         instituteTV = view.findViewById(R.id.instituteTV);
         registrationDateTV = view.findViewById(R.id.registrationDateTV);
         ratingTV = view.findViewById(R.id.ratingTV);
+
+        ratingTV.setVisibility(View.GONE);
 
 //        dailyQueTally = new LinkedHashMap<>();
 //        topicWiseList = new ArrayList<>();
@@ -172,6 +178,8 @@ public class ProfileFragment extends Fragment {
         quizzScoresPieChart.getDescription().setEnabled(false);
         quizzScoresPieChart.setExtraOffsets(5, 10, 5, 5);
         quizzScoresPieChart.invalidate();
+
+
 
 
 

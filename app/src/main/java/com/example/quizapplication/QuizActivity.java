@@ -199,7 +199,7 @@ public class QuizActivity extends AppCompatActivity implements QuestionList.Ques
 
         if(min<1)
         {
-            timer.setTextColor(Color.argb(255,0,0,255));
+            timer.setTextColor(Color.argb(255,255,0,0));
         }
 
         String sTime = null;
@@ -598,7 +598,11 @@ public class QuizActivity extends AppCompatActivity implements QuestionList.Ques
         builder.setMessage(marks_got+"/"+total_marks);
         builder.create().show();
 
-        int per=(marks_got/total_marks)*100;
+        int per=(marks_got*100)/total_marks;
+
+        //per=50;
+
+        Log.d("PERCENTAGE",per+"");
 
         for(int i=10;i<=100;i+=10)
         {
@@ -608,6 +612,8 @@ public class QuizActivity extends AppCompatActivity implements QuestionList.Ques
                 break;
             }
         }
+
+        Log.d("PERCENTAGE",per+"");
 
         User user=User.getUser(QuizActivity.this);
 
