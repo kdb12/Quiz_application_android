@@ -6,7 +6,7 @@ Krishna Bhutada, Sourav Batgiri, Pratik Bhojane
 outputs -
 
 
-
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/1.jpg)
 
 
 
