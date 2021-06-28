@@ -8,6 +8,20 @@ outputs -
 
 ![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/1.jpg)
 
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/2.jpg)
+
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/3.jpg)
+
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/4.jpg)
+
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/5.jpg)
+
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/6.jpg)
+
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/7.jpg)
+
+![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/8.jpg)
+
 
 
 
