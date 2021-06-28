@@ -6,21 +6,37 @@ Krishna Bhutada, Sourav Batgiri, Pratik Bhojane
 outputs -
 
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/1.jpg)
+<div align="center">
+    <img src="Outputs/1.jpg" width="400px"</img> 
+</div>
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/2.jpg)
+<div align="center">
+    <img src="Outputs/2.jpg" width="400px"</img> 
+</div>
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/3.jpg)
+<div align="center">
+    <img src="Outputs/3.jpg" width="400px"</img> 
+</div>
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/4.jpg)
+<div align="center">
+    <img src="Outputs/4.jpg" width="400px"</img> 
+</div>
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/5.jpg)
+<div align="center">
+    <img src="Outputs/5.jpg" width="400px"</img> 
+</div>
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/6.jpg)
+<div align="center">
+    <img src="Outputs/6.jpg" width="400px"</img> 
+</div>
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/7.jpg)
+<div align="center">
+    <img src="Outputs/7.jpg" width="400px"</img> 
+</div>
 
-![foxdemo](https://github.com/BitterSteelbsn/Android-Quiz-Application/blob/main/Outputs/8.jpg)
+<div align="center">
+    <img src="Outputs/8.jpg" width="400px"</img> 
+</div>
 
 
 
